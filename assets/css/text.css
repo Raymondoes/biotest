@@ -1,0 +1,54 @@
+#title-intro-div{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  font-family: 'Poppins-Semibold';
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  #title-intro-div {
+    font-size: 19px;
+  }
+}
+
+/* Further adjustments for even smaller screens */
+@media (max-width: 480px) {
+  #title-intro-div {
+    font-size: 18px;
+  }
+}
+
+@font-face{
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.ttf');
+
+  font-family: 'Poppins-Semibold';
+  src: url('../fonts/Poppins-SemiBold.ttf');
+
+  font-family: 'Poppins-Thin';
+  src: url('../fonts/Poppins-Thin.ttf');
+}
+
+#title-geek{
+  display: flex;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 768px) {
+  #title-geek {
+    font-size: 15px;
+  }
+}
+
+/* Further adjustments for even smaller screens */
+@media (max-width: 480px) {
+  #title-geek {
+    font-size: 14px;
+  }
+}
